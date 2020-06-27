@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="chk1">
+            <input id="result1" class="result" type="text">
+            <input id="result" class="result" type="text">
+        </div>
+        <div class="chk">
+            <button onclick="clr()" class="clearbtn">C</button>
+            
+        </div>
+        <div>
+            <button class="btn" onclick="setnum('7')">7</button>
+            <button class="btn" onclick="setnum('8')">8</button>
+            <button class="btn" onclick="setnum('9')">9</button>
+            <button class="btn btn1" onclick="setnum('*')"> X</button>
+        </div>
+        <div>
+            <button class="btn" onclick="setnum('4')">4</button>
+            <button class="btn"onclick="setnum('5')">5</button>
+            <button class="btn"onclick="setnum('6')">6</button>
+            <button class="btn btn1"onclick="setnum('-')">-</button>
+        </div>
+        <div>
+            <button class="btn"onclick="setnum('1')">1</button>
+            <button class="btn"onclick="setnum('2')">2</button>
+            <button class="btn"onclick="setnum('3')">3</button>
+            <button class="btn btn1" onclick="setnum('+')">+</button>
+        </div>
+        <div>
+            
+            <button class="btn" onclick="setnum('0')">0</button>
+            <button class="btn" onclick="setnum('.')">.</button>
+            <button class="btn btneql" onclick="rslt()">=</button>
+            <button class="btn btn1" onclick="setnum('/')">&#247;</button>
+        </div>
+
+
+    </div>
+    
+</body>
+<script src="app.js"></script>
+</html>
